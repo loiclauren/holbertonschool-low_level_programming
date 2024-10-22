@@ -7,12 +7,12 @@ int main(void)
     int n;
     int last_digit;
 
-    srand(time(0)); // Seed the random number generator
-    n = rand(); // Generate a random number
+    srand(time(0)); /* Seed the random number generator */
+    n = rand();     /* Generate a random number */
 
-    last_digit = n % 10; // Get the last digit
+    last_digit = n % 10; /* Get the last digit */
 
-    // Print the output as per the requirements
+    /* Print the output as per the requirements */
     printf("Last digit of %d is ", n);
     
     if (last_digit > 5) {
