@@ -1,15 +1,13 @@
-#include <stdio.h>
-
-int _isdigit(int c) {
-    return (c >= '0' && c <= '9') ? 1 : 0;
-}
-
-int main() {
-    char ch = '5'; // Change this to test different characters
-    if (_isdigit(ch)) {
-        printf("%c is a digit.\n", ch);
-    } else {
-        printf("%c is not a digit.\n", ch);
-    }
-    return 0;
+#include "main.h"
+/**
+ * _isdigit - Checks if a character is a digit (0 through 9).
+ * @c: the character to check, given as an integer (ASCII code).
+ * Return: 1 if c is a digit, 0 otherwise.
+ */
+int _isdigit(int c)
+{
+if (c >= '0' && c <= '9')
+return (1);
+else
+return (0);
 }
